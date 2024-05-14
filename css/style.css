@@ -19,7 +19,8 @@
 
 #size-btns button:hover,
 #item-details-collapse button:hover,
-#store-btn button:hover {
+#store-btn button:hover,
+#recomend-card button:hover {
   background-color: transparent !important;
   color: inherit !important;
   border-color: #333333 !important;
@@ -54,6 +55,15 @@
   font-size: 12px;
   color: #7a7a7a;
   margin-right: 7px;
+}
+
+#recomend-card .card-container {
+  width: 200px;
+  transition: all 0.2s ease-in;
+}
+
+.card-container:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 650px) {
