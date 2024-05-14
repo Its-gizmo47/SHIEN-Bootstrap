@@ -38,7 +38,8 @@
 #size-btns button:hover,
 #item-details-collapse button:hover,
 #store-btn button:hover,
-#recomend-card button:hover {
+#recomend-card button:hover,
+#review-btns button:hover {
   background-color: transparent !important;
   color: inherit !important;
   border-color: #333333 !important;
@@ -78,6 +79,12 @@
 #recomend-card .card-container {
   width: 200px;
   transition: all 0.2s ease-in;
+}
+
+#review-btns button {
+  padding: 4px 20px;
+  border: 1px solid #7a7a7a;
+  font-size: 14px;
 }
 
 .card-container:hover {
