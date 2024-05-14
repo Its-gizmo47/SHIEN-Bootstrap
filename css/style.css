@@ -55,3 +55,10 @@
   color: #7a7a7a;
   margin-right: 7px;
 }
+
+@media (max-width: 650px) {
+  #bread-crumb a {
+    color: rgb(123, 123, 123);
+    font-size: 0.6rem;
+  }
+}
