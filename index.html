@@ -275,7 +275,12 @@
                 <div class="row">
                   <div class="col-10 col-sm-9 order-2 order-sm-1">
                     <div class="d-grid">
-                      <button class="btn btn-dark fs-5 fw-bold">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-1"
+                        type="button"
+                        class="btn btn-dark fs-5 fw-bold"
+                      >
                         ADD TO CART
                       </button>
                     </div>
@@ -685,6 +690,159 @@
         </div>
       </div>
     </section>
+
+    <!-- Add to cart Pop Up -->
+
+    <div
+      id="modal-1"
+      class="modal fade"
+      style="display: none"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog custom-modal modal-lg bottom-0 position-absolute"
+      >
+        <div class="modal-content p-2">
+          <div class="cross-btn d-flex justify-content-end">
+            <button class="border-0 bg-transparent" data-bs-dismiss="modal">
+              <i class="fa-solid fa-x"></i>
+            </button>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="flex-shrink-container py-2 d-flex gap-2">
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-1.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-2.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-3.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-4.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-5.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    src="./images/display-img-6.webp"
+                    class="img-fluid"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <h6 class="text-truncate mb-1">
+                SHEIN Women Fashionable Lace Insertion Ruffle Trim Slip Dress
+                With Shoulder Straps
+              </h6>
+
+              <div class="text-secondary d-flex align-items-center gap-2">
+                <span style="font-weight: 900 !important; font-size: 25px">
+                  13.30€
+                </span>
+                <span
+                  class="ps-1"
+                  style="font-size: 12px; background-color: #ffece9"
+                  >Estimated
+                  <span
+                    class="h-100 px-1"
+                    style="
+                      background-color: #ffc8b9;
+                      font-weight: 700 !important;
+                    "
+                  >
+                    -30%</span
+                  ></span
+                >
+                <span
+                  style="
+                    font-size: 12px;
+                    color: #333333;
+                    text-decoration: line-through;
+                  "
+                  ;
+                >
+                  19.00€
+                  <i class="fa-solid fa-angle-right ms-2"></i>
+                </span>
+              </div>
+              <h6 class="fw-bold mt-1">
+                Size
+                <span
+                  style="background-color: #f7f8fa; font-size: 12px"
+                  class="rounded-5 py-1 px-2 fw-light"
+                  >Type <i class="fa-solid fa-angle-down ms-1"></i
+                ></span>
+              </h6>
+
+              <div id="size-btns">
+                <button class="btn btn-outline-dark">XS</button>
+                <button class="btn btn-outline-dark">S</button>
+                <button class="btn btn-outline-dark">M</button>
+                <button class="btn btn-outline-dark">L</button>
+              </div>
+              <div id="last-madal-point pb-8">
+                <h6 class="py-3" style="font-size: 12px; color: #979797">
+                  <span
+                    style="color: #198055; background-color: #f5fcfb"
+                    class="rounded-5 py-1 px-2 fw-light"
+                    >QuickShip</span
+                  >
+                  All Size are eligible for QuickShip
+                </h6>
+
+                <div class="row mt-6">
+                  <div class="col-10 col-sm-9 order-2 order-sm-1">
+                    <div class="d-grid">
+                      <button class="btn btn-dark fs-5 fw-bold">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-2 col-sm-3 order-1 order-sm-2">
+                    <span class="rounded-circle heart-circle">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Customer Review -->
     <section id="review" class="py-5">

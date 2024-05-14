@@ -66,13 +66,50 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 650px) {
+/* Custom modal dimensions and animation */
+.custom-modal {
+  max-width: 100vw;
+  min-height: 70vh;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.modal.fade .custom-modal {
+  transform: translateY(100%);
+  z-index: 9;
+}
+
+.modal.fade.show .custom-modal {
+  transform: translateY(0);
+}
+
+.modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+.modal-content .flex-shrink-container {
+  overflow-wrap: normal;
+}
+
+.modal-content .img-container {
+  flex-shrink: 0 !important;
+  width: 150px;
+}
+
+@media (max-width: 576px) {
   #bread-crumb a {
     color: rgb(123, 123, 123);
     font-size: 0.6rem;
   }
   #item-all-details {
     padding: 15px !important;
+  }
+  .heart-circle {
+    border: none;
   }
   #add-to-cart-div {
     position: fixed;
