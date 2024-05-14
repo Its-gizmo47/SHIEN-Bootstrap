@@ -28,8 +28,9 @@ function addToCart() {
   })
   console.log(element, window.innerWidth)
 
-  let color = "red"
   heartIcons.forEach((heartIcon) => {
+    let color = "red"
+
     heartIcon.addEventListener("click", (e) => {
       let icon = heartIcon.querySelector("i")
       icon.classList.toggle("fa-solid")
