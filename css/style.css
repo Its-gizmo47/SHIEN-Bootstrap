@@ -61,6 +61,9 @@
     color: rgb(123, 123, 123);
     font-size: 0.6rem;
   }
+  #item-all-details {
+    padding: 15px !important;
+  }
   #add-to-cart-div {
     position: fixed;
     z-index: 999;
