@@ -147,6 +147,9 @@
     border-top: 1px solid #7a7a7a;
     background-color: #ffffff;
   }
+  #recomend-card .card-container {
+    width: 170px;
+  }
 }
 @media (min-width: 768px) {
   .imgs-showcase {
