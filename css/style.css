@@ -1,0 +1,57 @@
+#bread-crumb a {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+#bread-crumb a:hover {
+  text-decoration: underline;
+  color: var(--bs-dark);
+}
+
+#size-btns button {
+  width: 65px !important;
+  margin-right: 5px !important;
+  border-radius: 50px;
+  border-color: #d5d5d5;
+  padding: 3px 0px !important;
+}
+
+#size-btns button:hover,
+#item-details-collapse button:hover,
+#store-btn button:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: #333333 !important;
+}
+
+.heart-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  color: transparent;
+  border: 1px solid #979797;
+}
+
+.heart-circle i {
+  font-size: 27px;
+  color: #7a7a7a;
+}
+
+.heart-circle:hover i {
+  transform: scale(1.15);
+}
+
+.logo-box {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #c9c9c9;
+}
+
+.stat-descrip {
+  font-size: 12px;
+  color: #7a7a7a;
+  margin-right: 7px;
+}
