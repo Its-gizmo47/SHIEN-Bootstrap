@@ -118,6 +118,16 @@
   width: 150px;
 }
 
+#modal-img-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#modal-img-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 576px) {
   #bread-crumb a {
     color: rgb(123, 123, 123);

@@ -17,16 +17,15 @@ function addToCart() {
 
   // Change the data-bs-target value
 
-  window.addEventListener("resize", () => {
+  function cartPopup() {
     if (window.innerWidth > 576) {
       element.removeAttribute("data-bs-target")
-      console.log("removed")
     } else {
       element.setAttribute("data-bs-target", "#modal-1")
-      console.log("added")
     }
-  })
-  console.log(element, window.innerWidth)
+  }
+  cartPopup()
+  window.addEventListener("resize", cartPopup)
 
   heartIcons.forEach((heartIcon) => {
     let color = "red"
